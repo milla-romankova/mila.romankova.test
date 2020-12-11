@@ -1,0 +1,17 @@
+.page {
+  display: grid;
+  grid-template-columns: 98px 1fr;
+  grid-template-rows: 98px 1fr;
+  grid-template-areas: "sidebar header" "sidebar content";
+
+  &__header {
+    grid-area: header;
+  }
+  &__sidebar {
+    grid-area: sidebar;
+  }
+
+  &__main {
+    grid-area: content;
+  }
+}

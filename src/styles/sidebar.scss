@@ -1,0 +1,33 @@
+.sidebar {
+  position: relative;
+  width: 98px;
+  height: 100vh;
+  background-color: #384756;
+
+  &--wide {
+    position: absolute;
+    width: 270px;
+    z-index: 2;
+  }
+}
+
+.sidebar--wide .nav__button--close {
+  display: flex;
+}
+
+.sidebar--wide .nav__list {
+  display: flex;
+}
+
+.sidebar--wide .nav__circles {
+  display: none;
+}
+
+.sidebar--wide .nav__burger {
+  justify-content: space-between;
+  padding: 30px;
+}
+
+.sidebar--wide .logo {
+  display: block;
+}

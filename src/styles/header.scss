@@ -1,0 +1,29 @@
+.header {
+  margin: 0 54px;
+  height: 98px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+
+  &__icon {
+    font-size: 30px;
+    color: #b4b9bd;
+    margin-left: 48px;
+    cursor: pointer;
+
+    @media(max-width: 800px) {
+      font-size: 20px;
+      margin-left: 15px;
+    }
+
+    &:hover {
+      color: #333f4e;
+    }
+
+    &--search {
+      margin-left: 0;
+    }
+  }
+
+}

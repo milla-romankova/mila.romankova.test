@@ -1,0 +1,46 @@
+.section {
+
+  &__icon {
+    font-size: 22px;
+    margin-left: 4px;
+    color: #b4b9bd;
+    transition: color 0.3s;
+    cursor: pointer;
+    padding-bottom: 22px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+    @media(max-width: 800px) {
+      font-size: 20px;
+      padding-bottom: 8px;
+    }
+
+    &:hover {
+      color: #333f4e;
+    }
+
+    &--active {
+      color: #333f4e;
+      border-bottom: 3px solid #333f4e;
+    }
+  }
+
+  &__top {
+    display: flex;
+    justify-content: space-between;
+    height: 75px;
+    padding: 30px;
+    font-size: 14px;
+    border-bottom: 1px solid #b4b9bd;
+
+    @media(max-width: 800px) {
+      height: 40px;
+      font-size: 10px;
+      padding: 10px;
+    }
+  }
+
+  &__select {
+    border: 1px solid transparent;
+  }
+}
